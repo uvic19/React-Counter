@@ -10,6 +10,10 @@ This is a simple React application that demonstrates a counter component. The ap
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 
+Thanks for catching that! Here’s the corrected README section:
+
+---
+
 ## Installation
 
 1. Clone this repository:
@@ -25,10 +29,10 @@ This is a simple React application that demonstrates a counter component. The ap
 
 3. Start the app:
    ```bash
-   npm start
+   npm run dev
    ```
-
-   The app should now be running on `http://localhost:3000`.
+   
+   The app should now be running on `http://localhost:5173`.
 
 ## Usage
 
