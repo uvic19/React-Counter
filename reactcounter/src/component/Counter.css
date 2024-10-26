@@ -1,22 +1,39 @@
 body{
-    background: grey;
+    background: rgb(18,19,23);
 }
 
 .counter-container{
-    background-color: rgb(212, 55, 86);
+    background-color: rgb(33,36,43);
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     flex-direction: column;
     gap: 15px;
     padding: 1.5rem;
-    border: 2px solid black;
+    border: 2px solid rgb(33,36,43);
     border-radius: 4px;
     color: white;
+    height: 20rem;
 }
 
 #btn{
     border: 0;
     height: 3rem;
+    width: 20rem;
     border-radius: 5px;
     font-size: 30px;
-    color: rgb(212, 55, 86);
+    color: black;
+    background-color: rgb(24,240,139);
+}
+
+span{
+    color: rgb(24,240,139);
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
 }

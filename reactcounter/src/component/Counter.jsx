@@ -5,8 +5,11 @@ function Counter() {
      const [count, setCount] = useState(0)
   return (
     <div className='counter-container'>
-      <p id="para">You Have clicked {count} times</p>
+      <h2>React Clicker</h2>
+      <div className='bottom'>
+      <p id="para">You Have clicked <span>{count}</span> times</p>
       <button id='btn' onClick={() => {setCount(count+1) }}>Click me</button>
+      </div>
     </div>
   )
 }
